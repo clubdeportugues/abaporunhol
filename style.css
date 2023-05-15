@@ -1,0 +1,416 @@
+* {
+    background: #EBF1FF;
+}
+
+.logo {
+    
+    margin-left: 80px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main {
+    
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 32px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.sobre-abaporu {
+    width: calc(60% - 50px);
+    margin-right: 50px;
+    align-items: flex-start;
+}
+
+.sobre-abaporu h1 {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 2em;
+line-height: 150%;
+color: #019B38;
+margin-bottom: 50px; 
+}
+
+.abaporu-mobile {
+    display: none;
+}
+
+.sobre-abaporu p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 150%;
+    color: #001B52;
+    margin-bottom: 20px;
+}
+
+
+.abaporu {
+font-family: 'Bevan';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5em;
+line-height: 125%;
+color: #FFDF00;
+}
+
+.abaporunhol {
+    font-family: 'Bevan';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 150%;
+    color:#001B52;
+}
+
+.sobre-abaporu h6 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.5em;
+    line-height: 150%;
+    color: #001B52;
+    margin-bottom: 30px;
+}
+
+.texto {
+    width: 100%;
+    height: 10%;
+    font-family: 'Playfair Display';
+    text-transform: lowercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 150%;
+    color:#019B38;
+    border: none;
+    overflow: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.texto::placeholder { font-family: 'Bevan'; font-size: 1em; color:#019B38; } 
+
+.texto:focus {
+    outline: none;
+}
+
+.mensagem-transformada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(40% - 50px);
+    height: 100%;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+.mensagem {
+    
+    height: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    font-family: 'Playfair Display';
+    text-transform: lowercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 150%;
+    color:#019B38;
+    padding: 20px;
+    padding-right: 0px;
+    cursor: text;
+    align-items: center;
+}
+
+.mensagem::placeholder {
+    font-family: 'Playfair Display';
+    text-transform: lowercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 150%;
+    color:#019B38;
+    padding: 20px;
+    overflow: fit;
+  }
+
+input.mensagem:placeholder-shown {
+    background-image:url(/abaporu.svg);
+  }
+
+.mensagem:focus {
+    outline: none;
+}
+
+
+.nenhuma-mensagem {
+    margin: 10px;
+    text-align: center;
+    font-family: 'Bevan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.5em;
+    line-height: 150%;
+    color:#001B52;
+}
+
+.escreva-mensagem {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.5em;
+    line-height: 150%;
+    color: #52B128;
+}
+
+.botoes {
+    display: flex;
+}
+
+.btn-cifrar {
+    cursor: pointer;
+    margin-right: 50px;
+    height: 54px ;
+    width: 336px;
+    font-size: 0.5em;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #FFDF00;
+    border-radius: 24px;
+    background-color: #001B52;
+    border:none;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+.btn-cifrar:hover {
+    color: #001B52;
+    background: #FFDF00 ;
+}
+
+.btn-decifrar {
+    cursor: pointer;
+    height: 54px ;
+    width: 336px;
+    font-size: 0.5em;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #FFDF00;
+    border-radius: 24px;
+    background-color: #001B52;
+    border:none;
+    padding: 0px;
+}
+
+.btn-decifrar:hover {
+    color: #FFDF00;
+    background: #019B38 ;
+}
+
+.btn-copiar {
+    max-width: 100%;
+    cursor: pointer;
+    height: 67px ;
+    width: 336px;
+    font-size: 0.5em;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #FFDF00;
+    border-radius: 24px;
+    background-color: #001B52;
+    border:none;
+    padding: 0;
+    align-items: center;
+}
+
+.btn-copiar:hover {
+    color: #001B52;
+    background: #D1C511 ;
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo {
+        margin: 20px;
+    }
+
+    main {
+        font-size: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0;
+        display: block;
+      }
+
+    .sobre-abaporu {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sobre-abaporu h1 {
+        max-width: 100%;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .abaporu-mobile {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sobre-abaporu p {
+        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        font-size: 1em;
+        
+    }
+
+    .abaporu {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .sobre-abaporu h6 {
+        font-size: 0.7em;
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box
+        }
+    
+    .texto {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 50px;
+        max-width: 100%;
+        font-size: 0.9em;
+    }
+
+    .mensagem-transformada {
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        padding: 0px;
+        height: 200px;
+        font-size: 0.9em; 
+    }
+    
+    .mensagem {
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 0px;
+        height: 200px;
+        font-size: 0.9em ;
+    }
+    
+    input.mensagem:placeholder-shown {
+        background-image:url(/nenhumamensagem.svg);
+      }
+    
+    .botoes {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .btn-cifrar {
+        cursor: pointer;
+        margin-right: 20px;
+        margin-left: 20px;
+        height: 50px ;
+        width: 200px;
+        font-size: 0.9em;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        color: #FFDF00;
+        border-radius: 24px;
+        background-color: #001B52;
+        border:none;
+    }
+    
+    .btn-cifrar:hover {
+        color: #001B52;
+        background: #FFDF00 ;
+    }
+    
+    .btn-decifrar {
+        cursor: pointer;
+        height: 50px ;
+        width: 200px;
+        font-size: 0.9em;
+        margin-right: 20px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        color: #FFDF00;
+        border-radius: 24px;
+        background-color: #001B52;
+        border:none;
+    }
+    
+    .btn-decifrar:hover {
+        color: #FFDF00;
+        background: #019B38 ;
+    }
+    
+    .btn-copiar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        cursor: pointer;
+        height: 50px ;
+        font-size: 0.9em;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        color: #FFDF00;
+        border-radius: 24px;
+        background-color: #001B52;
+        border:none;
+        margin-bottom: 50px;
+    }
+    
+    .btn-copiar:hover {
+        color: #001B52;
+        background: #D1C511 ;
+    }
+
+}

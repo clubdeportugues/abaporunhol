@@ -136,6 +136,7 @@ color: #FFDF00;
     color:#019B38;
     cursor: text;
     align-items: center;
+    padding: 20px;
 }
 
 .mensagem::placeholder {

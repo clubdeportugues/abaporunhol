@@ -135,7 +135,6 @@ color: #FFDF00;
     line-height: 150%;
     color:#019B38;
     padding: 20px;
-    padding-right: 0px;
     cursor: text;
     align-items: center;
 }
@@ -330,12 +329,13 @@ input.mensagem:placeholder-shown {
     
     .mensagem {
         display: inline;
+        border: 20px;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         padding: 0px;
         height: 200px;
-        font-size: 0.9em ;
+        font-size: 0.9em;
     }
     
     input.mensagem:placeholder-shown {

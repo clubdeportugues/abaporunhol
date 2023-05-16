@@ -13,6 +13,9 @@
 
 ## Índice
 
+- [Título](#abaporunhol)
+- [Badges](#badges)
+- [Índice](#indice)
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Status do Projeto](#status-do-projeto)
 - [Funcionalidades e Demonstração de Aplicação](#funcionalidades-e-demonstração-de-aplicação)

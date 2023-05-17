@@ -104,4 +104,4 @@ O projeto Abaporunhol está licenciado sob a [Licença MIT](https://opensource.o
 
 Através do projeto Abaporunhol, busquei consolidar meu aprendizado na primeira fase do programa ONE e criar uma aplicação divertida que pudesse ser utilizada por estudantes do idioma português, utilizando a criptografia como elemento central. Espero que esta ferramenta seja útil para os usuários que desejam explorar a língua portuguesa e a cultura brasileira de uma forma diferente e divertida. Se você tiver alguma sugestão ou feedback para melhorar o projeto, ficarei feliz em ouvir. Aproveite a experiência e divirta-se decifrando o [Abaporunhol](https://clubdeportugues.github.io/abaporunhol/)!
 
-<h6 align="center">Copyright :copyright: 2023 - Abapurunhol</h6>
+<h6 align="center">Copyright :copyright: 2023 - Abaporunhol</h6>

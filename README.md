@@ -4,6 +4,8 @@
 
  ## :shield: Badges 
 
+![Last updated: May 2023](https://img.shields.io/badge/Last%20updated-May%202023-52b128)
+
 ![Badge versão 1.0.0](https://img.shields.io/badge/Version-1.0.0-001B52)
     
 [![Badge página do projeto](https://img.shields.io/badge/Project%20Page-Abaporunhol-FFDF00)](https://clubdeportugues.github.io/abaporunhol/)

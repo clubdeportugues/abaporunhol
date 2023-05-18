@@ -66,7 +66,9 @@ Neste projeto, você encontrará as seguintes funcionalidades:
 
 :arrow_forward: Aqui está uma demonstração de como a aplicação funciona:
 
-<h6>[Inserir GIF ou vídeo demonstrando a aplicação em funcionamento]</h6>
+https://github.com/clubdeportugues/abaporunhol/assets/133647999/2823ff18-ecea-456f-92f1-810cda987ad1
+
+:movie_camera: Você também pode ver o vídeo completo da [apresentação do projeto Abaporunhol no youtube](https://youtu.be/agNzPdpjZVc)
 
 ## :link: Acesso ao Projeto 
 

@@ -68,7 +68,14 @@ function validarInput(input) {
 	input.value = input.value.replace(/[A-Za-z0-9]/g, '');
   }
   
+  const textoInput = document.querySelector('.texto');
+
+  textoInput.addEventListener('input', function (event) {
+	const inputValue = event.target.value;
   
-  
+	const normalizedValue = inputValue.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+	
+	event.target.value = normalizedValue;
+  });
   
   

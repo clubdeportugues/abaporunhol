@@ -137,6 +137,7 @@ color: #FFDF00;
     cursor: text;
     align-items: center;
     padding: 20px;
+    caret-color: transparent;
 }
 
 .mensagem::placeholder {
@@ -152,7 +153,7 @@ color: #FFDF00;
   }
 
 input.mensagem:placeholder-shown {
-    background-image:url(abaporu.svg);
+    background-image:url(imagens/abaporu.svg);
   }
 
 .mensagem:focus {
@@ -339,7 +340,7 @@ input.mensagem:placeholder-shown {
     }
     
     input.mensagem:placeholder-shown {
-        background-image:url(nenhumamensagem.svg);
+        background-image:url(imagens/nenhumamensagem.svg);
       }
     
     .botoes {
